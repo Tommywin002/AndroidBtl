@@ -7,7 +7,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    //noob player
+    //pro player is number one
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
