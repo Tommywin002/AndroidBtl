@@ -7,7 +7,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    //hiep hoi gay
+    //hiep hoi ga
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
