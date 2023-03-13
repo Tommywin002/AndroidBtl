@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="192dp"
-        android:layout_height="505dp"
+        android:layout_width="310dp"
+        android:layout_height="624dp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
