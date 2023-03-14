@@ -46,9 +46,9 @@
 
             <Button
                 android:id="@+id/addAccBtn"
-                android:layout_width="wrap_content"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/gradient_img"
+                android:background="@drawable/button_background_green1"
                 android:text="Add Account"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -59,6 +59,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="380dp"
         android:layout_height="360dp"
         android:layout_marginTop="10dp"
@@ -73,7 +74,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="50dp" >
+            android:layout_height="50dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -115,6 +116,7 @@
                     android:id="@+id/showMoreBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@color/pastel_dark_blue"
                     android:text="Show more"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -123,4 +125,18 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </TableRow>
     </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/faNewTransaction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
 </androidx.constraintlayout.widget.ConstraintLayout>
