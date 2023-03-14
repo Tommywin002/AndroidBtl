@@ -55,7 +55,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <EditText
-                android:id="@+id/edyAccName"
+                android:id="@+id/edtAccName"
                 android:layout_width="370dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
@@ -98,7 +98,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.058"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/edyAccName" />
+                app:layout_constraintTop_toBottomOf="@+id/edtAccName" />
 
             <Button
                 android:id="@+id/addBtn"
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
                 android:layout_marginTop="50dp"
-                android:background="@drawable/section_income"
+                android:background="@drawable/btn_add"
                 android:text="Add"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/iconSpinner" />
@@ -117,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="100dp"
-                android:background="@drawable/section_expense"
+                android:background="@drawable/btn_cancel"
                 android:text="Cancel"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/iconSpinner" />
