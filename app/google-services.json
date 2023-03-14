@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "990718482180",
+    "project_id": "androidbtl-a7019",
+    "storage_bucket": "androidbtl-a7019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990718482180:android:8bea66b97ef5075f442251",
+        "android_client_info": {
+          "package_name": "com.example.androidbtl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990718482180-cktgbvgi3r5s93b6aluiuqt6jncdi7c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbqyIU9I_K8Kel-PKT8OucEiLOttCmeUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990718482180-cktgbvgi3r5s93b6aluiuqt6jncdi7c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
